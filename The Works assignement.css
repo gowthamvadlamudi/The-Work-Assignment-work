@@ -1,0 +1,596 @@
+.body {
+    margin: 0px;
+
+}
+
+
+.main_container {
+    background-color: #f0a0a0;
+    min-height: 100vh;
+}
+
+
+.profile_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 20vh;
+}
+
+.container1 {
+    width: 20vw;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_con2 {
+    width: 80vw;
+    display: flex;
+    border-bottom: 3.5px #28135e solid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading {
+    color: #210762;
+    font-size: 25px;
+    font-family: Arial, Serif;
+    font-weight: bold;
+}
+
+
+.image {
+    font-size: 40px;
+    color: #210762;
+
+}
+
+.round_div {
+    background-color: transparent;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border: 3.5px #210762 solid;
+}
+
+.container2 {
+    width: 40vw;
+    padding-top: 20px;
+    height: 20vh;
+    border-right: 3.5px #210762 solid;
+}
+
+.para1 {
+    font-size: 10px;
+    font-family: Arial, Serif;
+    padding: 3px;
+    color: #210762;
+
+}
+
+.container3 {
+    width: 40vw;
+    padding: 10px;
+    padding-top: 20px;
+    height: 20vh;
+}
+
+.para2 {
+    font-size: 9px;
+    font-family: Arial, Serif;
+    color: #210762;
+
+}
+
+.work_container {
+    display: flex;
+    height: 20vh;
+}
+
+.work_container2 {
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    height: 20vh;
+
+
+}
+
+.para3 {
+    font-size: 9px;
+    font-family: Arial, Serif;
+    padding: 4px;
+    color: #210762;
+
+}
+
+.work_experience1 {
+    display: flex;
+    padding: 0px;
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    background-color: #210762;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+.skills_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 23vh;
+}
+
+.skill_container1 {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill_container2 {
+    width: 40vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    border-right: 3.5px #210762 solid;
+    border-bottom: 3.5px #210762 solid;
+    border-top: 3.5px #210762 solid;
+    height: 20vh;
+    display: flex;
+}
+
+.skill_1 {
+    display: flex;
+
+}
+
+.dot_div {
+    /* margin-bottom: 5px; */
+    margin-left: 16px;
+
+
+}
+
+.para4 {
+    font-size: 8px;
+    font-weight: bold;
+    color: #210762;
+    margin: 6px;
+}
+
+.Award_container {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    box-sizing: border-box;
+    border-bottom: 3.5px #210762 solid;
+    border-top: 3.5px #210762 solid;
+    height: 20vh;
+    /* padding: 15px; */
+}
+
+.para5 {
+    font-size: 9px;
+    padding: 2px;
+    color: #210762;
+
+}
+
+.awards {
+    display: flex;
+}
+
+
+
+.dot_div_1 {
+    margin-left: 56px;
+}
+
+.dot_div_2 {
+    margin-left: 9px;
+}
+
+.dot_div_3 {
+    margin-left: 39px;
+}
+
+.dot_div_4 {
+    margin-left: 15px;
+}
+
+.dot_div_5 {
+    margin-left: 36px;
+}
+
+
+.round_div2 {
+    background-color: #210762;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+
+
+}
+
+.image2 {
+    font-size: 40px;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.icon {
+    width: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.iconpara {
+    font-size: 18px;
+    font-family: Arial, Serif;
+    color: white;
+}
+
+.icon_container {
+    display: flex;
+    width: 80vw;
+    padding: 10px;
+    border-bottom: 3.5px #210762 solid;
+    justify-content: center;
+
+
+}
+
+.interests_container {
+    display: flex;
+    height: 17vh;
+    box-sizing: border-box;
+}
+
+.Education {
+    display: flex;
+    flex-direction: column;
+}
+
+.Education_container {
+    display: flex;
+    height: 20vh;
+
+}
+
+.education_para {
+    font-size: 13px;
+    margin: 7px;
+    color: #210762;
+}
+
+
+
+/* For miduem devices */
+@media screen and (min-width :768px) {
+
+    .image {
+        font-size: 70px;
+        padding-top: 20px;
+    }
+
+    .round_div {
+
+        width: 110px;
+        height: 110px;
+        background-color: transparent;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+        border: 4px #28135e solid;
+    }
+
+    .main_container {
+        background-color: #f0a0a0;
+        min-height: 100vh;
+
+    }
+
+    .profile_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        box-sizing: border-box;
+        height: 20vh;
+
+
+    }
+
+    .profile_con2 {
+        width: 80vw;
+        display: flex;
+        border-bottom: 4px #28135e solid;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+
+    }
+
+
+    .container1 {
+        width: 20vw;
+        box-sizing: border-box;
+        margin-left: 30px;
+        padding-top: 20px;
+    }
+
+    .container2 {
+        width: 40vw;
+        border-right: 4px #28135e solid;
+        padding-top: 20px;
+        height: 20vh;
+
+    }
+
+    .heading {
+        color: #210762;
+        font-size: 45px;
+        font-family: Arial, Serif;
+        font-weight: bold;
+    }
+
+    .para1 {
+        font-size: 18px;
+        font-family: Arial, Serif;
+
+    }
+
+    .container3 {
+        width: 40vw;
+        box-sizing: border-box;
+        padding-top: 20px;
+        height: 20vh;
+
+    }
+
+    .para2 {
+        font-size: 17px;
+        font-family: Arial, Serif;
+        margin-left: 10px;
+
+
+    }
+
+    .work_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        height: 25vh;
+
+    }
+
+
+
+    .work_container1 {
+        width: 20vw;
+        box-sizing: border-box;
+        margin-left: 30px;
+        padding-top: 20px;
+    }
+
+    .work_container2 {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        box-sizing: border-box;
+        height: 25vh;
+        padding-top: 25px;
+        padding-bottom: 10px;
+
+
+    }
+
+    .work_experience1 {
+        display: flex;
+
+    }
+
+    .para3 {
+        font-size: 14px;
+        font-family: Arial, Serif;
+        margin-right: 10px;
+        padding: 3px;
+        color: #210762;
+
+    }
+
+    .skills_container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        height: 25vh;
+    }
+
+    .dot {
+        height: 12px;
+        width: 12px;
+        background-color: #210762;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+
+
+
+    .dot_div_1 {
+        margin-left: 104px;
+        margin-top: 5px;
+
+    }
+
+    .dot_div_2 {
+        margin-left: 12px;
+        margin-top: 5px;
+    }
+
+    .dot_div_3 {
+        margin-left: 70px;
+        margin-top: 7px;
+    }
+
+    .dot_div_4 {
+        margin-left: 19px;
+        margin-top: 8px;
+    }
+
+    .dot_div_5 {
+        margin-left: 58px;
+        margin-top: 10px;
+    }
+
+    .skill_container1 {
+        width: 20vw;
+        margin-left: 30px;
+        height: 25vh;
+        padding-top: 20px;
+    }
+
+    .skill_container2 {
+        width: 40vw;
+        box-sizing: border-box;
+        border-right: 4px #210762 solid;
+        border-bottom: 4px #210762 solid;
+        border-top: 4px #210762 solid;
+        height: 25vh;
+        display: flex;
+
+    }
+
+    .para4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+
+    .Award_container {
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        box-sizing: border-box;
+        border-bottom: 4px #210762 solid;
+        border-top: 4px #210762 solid;
+        height: 25vh;
+
+    }
+
+    .awards {
+        display: flex;
+        padding-left: 10px;
+
+    }
+
+    .para5 {
+        font-size: 15px;
+        padding: 2px;
+        padding-right: 8px;
+    }
+
+    .round_div2 {
+        background-color: #210762;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 10px;
+
+    }
+
+    .image2 {
+        font-size: 50px;
+        padding-top: 20px;
+        color: #ffffff;
+    }
+
+    .icon {
+        width: 135px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        padding: 10px;
+
+    }
+
+    .iconpara {
+        font-size: 18px;
+        font-family: Arial, Serif;
+        color: white;
+    }
+
+    .icon_container {
+        display: flex;
+        width: 80vw;
+        padding: 10px;
+        border-bottom: 4px #210762 solid;
+        justify-content: center;
+
+
+    }
+
+    .interests_container {
+        display: flex;
+        height: 17vh;
+        box-sizing: border-box;
+    }
+
+    .Education {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .Education_container {
+        display: flex;
+        height: 20vh;
+
+
+    }
+
+    .education_para {
+        font-size: 17px;
+        margin: 7px;
+    }
+
+
+}
